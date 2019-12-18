@@ -20,4 +20,5 @@ const client = (sql, arg, callback) => {
 	config.end()
 }
 
+
 module.exports = client;
