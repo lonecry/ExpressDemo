@@ -12,11 +12,11 @@
       </driver-properties>
       <time-zone>UCT</time-zone>
     </data-source>
-    <data-source source="LOCAL" name="mysql@localhost" uuid="876c6f4f-5243-40f5-ac69-5b0955815718">
-      <driver-ref>mysql</driver-ref>
+    <data-source source="LOCAL" name="music@localhost" uuid="876c6f4f-5243-40f5-ac69-5b0955815718">
+      <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/mysql</jdbc-url>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/music</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />
@@ -24,6 +24,7 @@
         <property name="characterEncoding" value="utf8" />
         <property name="characterSetResults" value="utf8" />
         <property name="yearIsDateType" value="false" />
+        <property name="serverTimezone" value="UTC" />
       </driver-properties>
     </data-source>
   </component>
