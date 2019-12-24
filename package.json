@@ -1,23 +1,24 @@
 {
-  "name": "expressdemo",
-  "version": "1.0.0",
-  "description": "ExpressDemo~",
-  "main": "app.js",
-  "scripts": {
-    "start": "nodemon ./app.js",
-    "dev": "node ./app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "孙文",
-  "license": "ISC",
-  "dependencies": {
-    "cookie-parser": "^1.4.4",
-    "express": "^4.17.1",
-    "mysql": "^2.17.1",
-    "mysql2": "^2.0.2",
-    "nodemon": "^2.0.1",
-    "pm2": "^4.2.1",
-    "sequelize": "^5.21.3",
-    "sequelize-cli": "^5.5.1"
-  }
+	"name": "expressdemo",
+	"version": "1.0.0",
+	"description": "ExpressDemo~",
+	"main": "app.js",
+	"scripts": {
+		"start": "nodemon ./app.js",
+		"build": "nodemon ./app.js --env=production",
+		"dev": "node ./app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "孙文",
+	"license": "ISC",
+	"dependencies": {
+		"cookie-parser": "^1.4.4",
+		"express": "^4.17.1",
+		"mysql": "^2.17.1",
+		"mysql2": "^2.0.2",
+		"nodemon": "^2.0.1",
+		"pm2": "^4.2.1",
+		"sequelize": "^5.21.3",
+		"sequelize-cli": "^5.5.1"
+	}
 }

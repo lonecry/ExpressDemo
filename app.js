@@ -83,8 +83,11 @@ app.all('/*', (req, res) => {
 	})
 })
 
+
+// process.env.NODE_ENV = 'production';
+
 //端口监听
-app.listen(3000, () => {
+app.listen(80, () => {
 	console.log('3000 端口启动成功！');
 })
 

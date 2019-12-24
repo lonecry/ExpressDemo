@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "123456",
-    "database": "expressdemo",
-    "host": "127.0.0.1",
+    "username": "bdm30037555",
+    "password": "!swsun107wen2008",
+    "database": "bdm30037555_db",
+    "host": "bdm30037555.my3w.com",
     "dialect": "mysql"
   },
   "test": {
@@ -15,10 +15,10 @@
     "operatorsAliases": false
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "bdm30037555",
+    "password": "!swsun107wen2008",
+    "database": "bdm30037555_db",
+    "host": "bdm30037555.my3w.com",
     "dialect": "mysql",
     "operatorsAliases": false
   }
